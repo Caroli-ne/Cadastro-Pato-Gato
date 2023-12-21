@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <section class="icons">
+            
+        </section>
+        <form id="form" class="form">
+            <div class="form-content">
+                <input input="text" class="info" id="name" placeholder="Nome">
+                <input type="text" class="info" id="surname" placeholder="Sobrenome">
+                <input type="text" class="info" id="username" placeholder="Nome de Usuário">
+                <input type="email" class="info" id="email" placeholder="Email">
+                <input type="password" class="info" id="password" placeholder="Senha">
+                <input type="password" class="info" id="password-confirm" placeholder="Confirmação de senha">
+                <label>
+                    <input type="checkbox" id="agree-checkbox"> Eu concordo com os termos
+                </label>
+            </div>
+            
+            <button type="submit">Registrar</button>
+
+        </form>
+    </div>
 </body>
 </html>
